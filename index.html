@@ -1,75 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FreshMeal.com -Order your favourite Meals</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-    <header class="topbar"> 
-        <div class="container flex justify-between items-center">
-            <div class="icons">
-                <a href="#"><img src="./icons/facebook.svg" alt=""></a>  
-                <a href="#"><img src="./icons/twitter.svg" alt=""></a>  
-                <a href="#"><img src="./icons/instagram.svg" alt=""></a>  
-                <a href="#"><img src="./icons/google.svg" alt=""></a>  
-                <a href="#"><img src="./icons/search.svg" alt=""></a>  
-            </div>
-            <div class="auth flex items-center">
-                <div>
-                    <img src="./icons/user-icon.svg" alt="">
-                    <a href="#">Login</a>
-                </div>
-                <span class="divider">|</span>
-                <div>
-                    <img src="./icons/edit.svg" alt="">
-                    <a href="#">Register</a>
-                </div>
-                <span class="divider">|</span>
-                <div>
-                    <img src="./icons/cart.svg" alt="">
-                    <a href="#">0 Items-($0.00)</a>
-                </div> 
-            </div>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container flex justify-between items-center">
+        <div class="icons">
+          <a href="#"><img src="./icons/facebook.svg" alt="" /></a>
+          <a href="#"><img src="./icons/twitter.svg" alt="" /></a>
+          <a href="#"><img src="./icons/instagram.svg" alt="" /></a>
+          <a href="#"><img src="./icons/google.svg" alt="" /></a>
+          <a href="#"><img src="./icons/search.svg" alt="" /></a>
         </div>
+        <div class="auth flex items-center">
+          <div>
+            <img src="./icons/user-icon.svg" alt="" />
+            <a href="#">Login</a>
+          </div>
+          <span class="divider">|</span>
+          <div>
+            <img src="./icons/edit.svg" alt="" />
+            <a href="#">Register</a>
+          </div>
+          <span class="divider">|</span>
+          <div>
+            <img src="./icons/cart.svg" alt="" />
+            <a href="#">0 Items-($0.00)</a>
+          </div>
+        </div>
+      </div>
     </header>
     <nav>
-        <div class="top">
+      <div class="top">
         <div class="container flex justify-between">
-            <div class="contact flex items-center">
-                <img src="./icons/phone.svg" alt="">
-                <div>
-                    <h5>Call US: (+91)6395964648</h5>
-                    <h6>E-mail: kumarnikil220@gmail.com</h6>
-                </div>
+          <div class="contact flex items-center">
+            <img src="./icons/phone.svg" alt="" />
+            <div>
+              <h5>Call US: (+91)6395964648</h5>
+              <h6>E-mail: kumarnikil220@gmail.com</h6>
             </div>
-            <div class="brand">
-                <img src="./icons/logo.svg" alt="">
+          </div>
+          <div class="brand">
+            <img src="./icons/logo.svg" alt="" />
+          </div>
+          <div class="time flex items-center">
+            <img src="./icons/clock.svg" alt="" />
+            <div>
+              <h5>Working Hours:</h5>
+              <h6>Mon - Sat (8:00AM - 12:00PM)</h6>
             </div>
-            <div class="time flex items-center">
-                <img src="./icons/clock.svg" alt="">
-                <div>
-                    <h5>Working Hours:</h5>
-                    <h6>Mon - Sat (8:00AM - 12:00PM)</h6>
-                </div>
-            </div>
+          </div>
         </div>
+      </div>
+
+      <!--Bottom side of navbar-->
+      <div class="navbar magic-shadow">
+        <div class="container flex justify-center">
+          <a href="#" class="active">Home</a>
+          <a href="#">About us</a>
+          <a href="#">Products</a>
+          <a href="#">Blog</a>
+          <a href="#">Shop</a>
+          <a href="#">Services</a>
+          <a href="#">Gallary</a>
+          <a href="#">Contact us</a>
         </div>
-        
-        <!--Bottom side of navbar-->
-        <div class="navbar magic-shadow">
-            <div class="container flex justify-center">
-                <a href="#" class="active">Home</a>
-                <a href="#">About us</a>
-                <a href="#">Products</a>
-                <a href="#">Blog</a>
-                <a href="#">Shop</a>
-                <a href="#">Services</a>
-                <a href="#">Gallary</a>
-                <a href="#">Contact us</a>
-            </div>
-        </div>
+      </div>
     </nav>
-</body>
+    <!--Hero Section-->
+    <header class="hero flex items-center">
+      <div class="container">
+        <div class="welcome flex items-center">
+          <span>Welcome to</span>
+          <img src="./icons/logo.svg" alt="" />
+        </div>
+        <h1>The World Best <span>Shopping</span>Website</h1>
+        <p>
+          From swanky upscale restaurants to the cosiest hidden gems serving the
+          most incredible food,we covers it all. Explore menus, and
+          millions of restaurant...
+        </p>
+        <div>
+          <button class="btn btn-primary">Read More</button>
+          <button class="btn btn-secondary">Shop Now</button>
+        </div>
+      </div>
+    </header>
+  </body>
 </html>
