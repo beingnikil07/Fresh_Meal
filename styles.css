@@ -6,6 +6,7 @@
 }
 body{
    -webkit-font-smoothing:antialiased;
+   height: 5000px;
 }
 /* Fonts */
  @font-face {
@@ -233,4 +234,93 @@ header.hero .hero-image>img{
    top:-40px;
    right:40px;
 
+}
+
+section{
+   padding: 4rem 0rem;
+}
+section.top-products{
+   background: var(--light);
+}
+section.top-products .food-slider .food-card{
+   background:var(--heaven);
+   padding: 1.5rem 0rem;
+   border-radius: 5px;
+}
+section.top-products .food-slider .food-card .product-image img{
+   width:80%;
+   height: 200px;
+   object-fit: contain;
+}
+section.top-products .food-slider .food-card .product-image h2{
+   font-family: "Raleway-bold";
+   font-size: 1.3rem;
+   margin: 0.25rem;
+}
+section.top-products .food-slider .food-card .stars{
+   margin: 0.5rem;
+} 
+section.top-products .food-slider .food-card .stars img{
+   margin-right: 0.35rem;
+}
+section.top-products .food-slider .food-card .price{
+   font-family: "Raleway-medium";
+   font-size: 1rem;
+   color: var(--danger);
+}
+section.top-products .food-slider .food-card button{
+   font-family: "Raleway-medium";
+   color: var(--secondary);
+   background:var(--heaven);
+   border: 2px solid var(--primary);
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   width: 50%;
+   font-size: 1rem;
+   cursor: pointer;
+   transition: all .3s ease;
+}
+section.top-products .food-slider .food-card button:hover{
+   background: var(--primary);
+   color: var(--heaven);
+}
+.food-slider .food-card button img{
+   background: var(--primary);
+   padding: 0.50rem;
+   height: 32px;
+   margin-right: 1.2rem;
+
+}
+
+.section-heading{
+   font-family: "Raleway-bold";
+   text-align: center;
+   position: relative;
+   margin-bottom: 4rem;
+}
+.section-heading:after{
+   content: '';
+   width: 100%;
+   display: block;
+   height: 30px;
+   background-image: url(./icons/hr.svg);
+   background-repeat: no-repeat;
+   background-position: center;
+   position: absolute;
+   bottom: -40px;
+}
+.text-center{
+   text-align: center;
+}
+hr{
+   border: 1px solid var(--light);
+   opacity: 0.8;
+   margin: 1rem 0rem;
+}
+.slick-slide{
+   margin: 0 27px;
+}
+.slick-list{
+   margin: 0 -27px;
 }
