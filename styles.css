@@ -100,7 +100,23 @@ header.topbar .auth>div img{
    align-items: center;
 }
 
+nav .top{
+   padding: 1.5rem 0;
+}
+nav .container .contact h5,nav .container .time h5{
+   font-family: "Relway-black";
+   margin:0.35rem;
+}
 
-
+nav .container .contact h6,nav .container .time h6{
+   font-family: "Relway-medium";
+   margin:0.35rem; 
+   letter-spacing: 0.055rem;
+   font-size: 0.75rem;
+   color: var(--ternary);
+}
+nav .top .contact img,nav .top .time img{
+   margin-right: 1rem;
+}
 
 
