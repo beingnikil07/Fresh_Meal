@@ -96,6 +96,9 @@ header.topbar .auth>div img{
 .justify-between{
    justify-content: space-between;
 }
+.justify-center{
+   justify-content: center;
+}
 .items-center{
    align-items: center;
 }
@@ -119,4 +122,21 @@ nav .top .contact img,nav .top .time img{
    margin-right: 1rem;
 }
 
+nav .navbar a{
+   text-decoration: none;
+   font-family: "Releway-semibold";
+   color: var(--secondary);
+   font-size: 1rem;
+   padding: 1rem 1.5rem;
+   transition: all .3s ease;
+}
+
+nav .navbar a.active{
+   background: var(--primary);
+   color: var(--pure); 
+}
+nav .navbar a:hover{
+   background: var(--primary);
+   color: var(--pure);
+}
 
