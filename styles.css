@@ -176,6 +176,8 @@ nav .navbar a:hover{
    background-position: center;
    position: absolute;
    bottom: -20px;
+   left: 50%;
+   transform: translateX(-50%);
    z-index: -1;
 } 
 
@@ -388,4 +390,41 @@ section.about-meal p{
 }
 .flex-1{
    flex: 1;  /*Used to divide equal space between two and more elements*/
+}
+
+section.our-services{
+   background: var(--light);
+   position: relative;
+   z-index: 0;
+}
+section.our-services .card-wrapper{
+   margin-right:-2rem;
+   margin-top: 8rem;
+}
+section.our-services .service-card{
+   background: var(--heaven);
+   padding:2rem;
+   margin-right: 2rem;
+   text-align: center;
+   position: relative;
+   border-radius: 4px;
+   padding-top: 4rem;
+}
+section.our-services .service-card .icon{
+   position: absolute;
+   top:-45px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+section.our-services .service-card h2{
+   font-family: "Raleway-bold";
+   font-size: 1.2rem;
+   margin-bottom: 1rem;
+}
+section.our-services .service-card p{
+   line-height: 1.6;
+   margin-bottom: 1rem;
+}
+.text-primary{
+   color: var(--primary);
 }
