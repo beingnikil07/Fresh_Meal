@@ -556,3 +556,32 @@ section.subscribe .input-wrap button{
 section.subscribe .input-wrap button:hover{
    background:var(--secondary);
 }
+
+section.contact-us{
+   padding-top: 0;
+   padding-bottom: 0;
+}
+section.contact-us .contact-info-wrapper{
+   padding:4rem 0;
+   flex: 1;
+}
+section.contact-us .map{
+   flex: 1;
+   filter: grayscale(100%);
+} 
+section.contact-us .contact-info{
+   display: flex;
+   justify-content: center;
+}
+section.contact-us .contact-info>div>div{
+   display: flex;
+   align-items: center;
+   margin-bottom: 2rem;
+}
+section.contact-us .contact-info>div>div img{
+   margin-right: 1rem;
+}
+section.contact-us .contact-info>div>div>div span:first-child{
+      font-family: "Raleway-bold";
+      margin-bottom:0.3rem;
+}
