@@ -761,6 +761,67 @@ footer.copyright span{
    .top-products .slider-btn{
       display: none!important;
    }
+   .latest-news .article-wrapper{
+      flex-direction: column;
+      margin-bottom: 4rem;
+   }
+}
+@media(max-width:768px){
+   .about-meal .about-meal-wrap{
+      flex-direction: column;
+   }  
+   .about-meal .about-meal-wrap img{
+      width: 100%;
+      margin-bottom: 2rem;
+   }
+   section.our-services .card-wrapper{
+      flex-direction: column;
+   }
+   section.our-services .card-wrapper .service-card{
+      margin-bottom: 6rem;
+   }
+   footer .container{
+      flex-direction: column;
+   }
+   footer .box{
+      text-align: left;
+      margin-bottom: 3rem;
+      margin-right: 0;
+   }
+}
+@media(max-width:576px){
+   header.hero .hero-image>img{
+      right: -230px;
+      top:150px;
+   }
+   header.hero .container{
+      padding-left: 1rem;
+   }
+   header.hero{
+      margin-top: -3rem;
+   }
+   section.big-deal .timer>div{
+      margin-right: 0.50rem;
+   }
+   section.big-deal .timer{
+      margin-right: -0.50rem;
+   }
+   section.subscribe .container{
+      flex-direction: column;
+      padding: 0.5rem;
+   }
+   section.contact-us{
+      flex-direction: column;
+   }
+   footer{
+      padding: 1rem 0;
+   }
+}
+@media(max-width:410px){
+   header.hero .hero-image>img{
+      right:-260px;
+      top:180px;
+   }
 }
 
 
