@@ -5,6 +5,14 @@ $(document).ready(function(){
          slidesToScroll:1,
          prevArrow:".prev-btn",
          nextArrow:".next-btn",
+         responsive:[
+            {
+                breakpoint:992,
+                settings:{
+                    slidesToShow:2,    
+                }
+            }
+         ]
     });
 
     $('.nav-trigger').click(function(){

@@ -751,6 +751,16 @@ footer.copyright span{
    header.topbar,nav{
       display: none;
    }
+   header.hero{
+      margin-top:-4rem;
+   }
+   header.hero .hero-image>img{
+      right:-160px;
+      top:100px;
+   }
+   .top-products .slider-btn{
+      display: none!important;
+   }
 }
 
 
