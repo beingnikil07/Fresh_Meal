@@ -6,7 +6,6 @@
 }
 body{
    -webkit-font-smoothing:antialiased;
-   height: 5000px;
    font-family:"Raleway-regular";
 }
 /* Fonts */
@@ -584,4 +583,55 @@ section.contact-us .contact-info>div>div img{
 section.contact-us .contact-info>div>div>div span:first-child{
       font-family: "Raleway-bold";
       margin-bottom:0.3rem;
+}
+footer{
+   background: var(--footer);
+   padding: 4rem 0;
+}
+
+footer .container{
+   display: flex;
+   color: var(--pure);
+}
+footer .box{
+   flex: 1;
+   margin-right:2rem;
+   text-align: center;
+}
+footer .box ul{
+   list-style-type: none;
+}
+footer .box ul li a{
+   color: var(--pure);
+   text-decoration: none;
+   transition: all .3s ease;
+
+}
+footer .box ul li a:hover{
+   color: var(--primary);
+
+}
+footer .box h3{
+   border-bottom: 2px solid var(--primary);
+   padding-bottom: 1rem;
+   margin-bottom: 1rem;
+}
+footer .box p{
+   line-height: 1.6;
+   margin-bottom: 1rem;
+}
+footer .box ul li{
+   margin-bottom: 1rem;
+}
+
+footer.copyright{
+   text-align: center;
+   background: var(--secondary);
+   color: var(--pure);
+   padding: 1rem 0;
+}
+footer.copyright span{
+   color: var(--primary);
+   font-family:"Raleway-bold";
+     
 }
