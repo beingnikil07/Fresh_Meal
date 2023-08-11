@@ -660,7 +660,8 @@ footer.copyright span{
    top: 0;
    left: 0;
    z-index: 1;
-   padding: 15px;   
+   padding: 15px;
+   display: none;   
 }
 .nav-trigger svg{
    transform: rotate(90deg) scaleX(-1);
@@ -688,3 +689,68 @@ footer.copyright span{
    height: 100%;
    overflow-x: auto;
 }
+
+/*******************************Responsive part**********************************/
+.nav-background .mobile-logo{
+   padding: 1rem;
+}
+.nav-background .mobile-nav{
+   padding: 1rem;
+}
+.nav-background .mobile-nav ul{
+   list-style-type: none;
+}
+.nav-background .mobile-nav ul li{
+   margin-bottom: 1rem;
+}
+.nav-background .mobile-nav ul li a{
+   text-decoration: none;
+   color: var(--secondary);
+   font-family: "Raleway-medium";
+
+}
+.nav-background .mobile-nav ul li a:hover{
+   color: var(--primary);
+}
+.nav-background .contact ,.nav-background .time{
+   padding: 1rem;
+   padding-left: 0;
+}
+.nav-background .contact img,.nav-background .time img{
+   margin-right:1rem;
+}
+.nav-background .contact h5,.nav-background .time h5{
+   font-family: "Raleway-bold";
+   margin-bottom: 0.25rem;
+   font-size: 1rem;
+}
+.nav-background .contact h6,.nav-background .time h6{
+   font-size: 0.75rem;
+}
+
+.nav-background .cart{
+   margin-bottom:2rem;
+}
+.nav-background .cart a{
+   text-decoration: none;
+   font-family: "Raleway-bold";
+   color: var(--secondary);
+}
+.nav-background .cart img{
+   margin-right: 0.75rem;
+   width: 20px;
+   height: 20px;
+}
+
+
+
+@media(max-width:992px){
+   .nav-trigger{
+      display: block;
+   }
+   header.topbar,nav{
+      display: none;
+   }
+}
+
+
