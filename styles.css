@@ -635,3 +635,31 @@ footer.copyright span{
    font-family:"Raleway-bold";
      
 }
+
+
+
+.main-wrapper{
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;   
+}
+.nav-background{
+   width: 100%;
+   height: 100%;
+   background: var(--light);
+   position: absolute;
+   top: 0;
+   left: 0;
+   padding: 0;
+   z-index: 1;
+
+}
+.nav-trigger{
+   position: absolute;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   padding: 15px;   
+}
+
